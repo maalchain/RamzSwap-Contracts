@@ -1,0 +1,314 @@
+{
+	"compiler": {
+		"version": "0.5.16+commit.9c3226ce"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_feeToSetter",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "token0",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "token1",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "pair",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "PairCreated",
+				"type": "event"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "INIT_CODE_PAIR_HASH",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "allPairs",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "allPairsLength",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "tokenA",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "tokenB",
+						"type": "address"
+					}
+				],
+				"name": "createPair",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "pair",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "feeTo",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "feeToSetter",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "getPair",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_feeTo",
+						"type": "address"
+					}
+				],
+				"name": "setFeeTo",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_feeToSetter",
+						"type": "address"
+					}
+				],
+				"name": "setFeeToSetter",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MAAL Blockchain/RamzSwap/Core/RamzSwapFactory.sol": "RamzSwapFactory"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MAAL Blockchain/RamzSwap/Core/RamzSwapFactory.sol": {
+			"keccak256": "0xaeed0f16a2a4825199c4e9b2ec6b8b29d2a5b3c7b8c531d5491789bc50b0a1ef",
+			"urls": [
+				"bzz-raw://94d4076ae81140b3b6d3eb5cd15649567b80f6163a656fd5f091216aa5a3e5d6",
+				"dweb:/ipfs/QmVzwpRQKVXMrzZ8dEhkYu1xJMakCKEYZSMDv34RZmLGfk"
+			]
+		},
+		"MAAL Blockchain/RamzSwap/Core/RamzSwapMAAL20.sol": {
+			"keccak256": "0x25974ca9d7899317b9621b401d635be494f175d5101821bae3c152e1d8a4918b",
+			"urls": [
+				"bzz-raw://406c424002506f1098b7f6ecf3485894fe9681df098b8429e98fa3d02667827b",
+				"dweb:/ipfs/QmcQHdKEswqwuLzSTh1ijbraqvQ62z4qqs5TeJQeqv5YSC"
+			]
+		},
+		"MAAL Blockchain/RamzSwap/Core/RamzSwapPair.sol": {
+			"keccak256": "0xc71efe48a30de8cf868cfd75107378277ab706b84ddcf893236c20057ca35472",
+			"urls": [
+				"bzz-raw://0f3af9d6be2df46248b541c07677530cc7900b2b1ff2097f217c72e9ee59752c",
+				"dweb:/ipfs/QmS5cAeFoW5jKdnvMiGfQ9cf8Efh5iCwNKFRCYsvBCMtGU"
+			]
+		},
+		"MAAL Blockchain/RamzSwap/Core/interfaces/IMAAL20.sol": {
+			"keccak256": "0xe5a25354bf97a61ee1a483706cc3fd5520731219db830e9ce92bd06c8cb94140",
+			"urls": [
+				"bzz-raw://5085c9eb9751cd20f198877d9ce717a922b3b6ff68f3494893079427589d53fc",
+				"dweb:/ipfs/Qmcuivr1f1r2cY7ebQCpsjoeMA5CjNXjY6CfU4WfqrGMsd"
+			]
+		},
+		"MAAL Blockchain/RamzSwap/Core/interfaces/IRamzSwapCallee.sol": {
+			"keccak256": "0xb6e722f0137725402670b903e4a946c053872f9448115a5cbe5ccba9f280439f",
+			"urls": [
+				"bzz-raw://33f929f5c39f9d804e319e4cbf9a7d560331f29bea3e9c456a1d8ea43d6b365f",
+				"dweb:/ipfs/QmW6YPgREw9rUufoE57vDwBcNWEoR1tNJDJFzBkaRaG2Sx"
+			]
+		},
+		"MAAL Blockchain/RamzSwap/Core/interfaces/IRamzSwapFactory.sol": {
+			"keccak256": "0x1360b813a3f7fe6cab2dd602b4d05bbc82ec28dfdc899361f7ceae61e607b594",
+			"urls": [
+				"bzz-raw://39707c0e2351ff3e654b7b542a38c04dc45dacbaf349324b8e2bce98c4c009e3",
+				"dweb:/ipfs/QmenEXdYnb94W4EjbKdjSy1sP9ztvxP74cN9Mspd35ydTS"
+			]
+		},
+		"MAAL Blockchain/RamzSwap/Core/interfaces/IRamzSwapMAAL20.sol": {
+			"keccak256": "0x6ae58d4498bdd7d56ab96edb3f50755fa9c505da896894972cd6d95a9e76eecf",
+			"urls": [
+				"bzz-raw://9376fa2044b8b91a2d887cbe996a076495491ab8f3f3ddcbd1cc3391db72579b",
+				"dweb:/ipfs/QmRnJ9VYpj4b3CXKGbpyNQ1vuR9niySpsyvwj3mkKkYxz5"
+			]
+		},
+		"MAAL Blockchain/RamzSwap/Core/interfaces/IRamzSwapPair.sol": {
+			"keccak256": "0x173001660c443a9753f86546cab75d849e0c336f9537620ea6af47839aa24de0",
+			"urls": [
+				"bzz-raw://3e73c13c550a45504eefda56e2038d70c88a8dc29902c08ea785ae256628b773",
+				"dweb:/ipfs/QmTG2Znkn9Eqvum3fFNDLB7wfjAwqV1QSNpqJjYj928XWo"
+			]
+		},
+		"MAAL Blockchain/RamzSwap/Core/libraries/Math.sol": {
+			"keccak256": "0x05927cb4aa14897bd567607522c18d2d518fa803ade6f870fac244c6f3702a3b",
+			"urls": [
+				"bzz-raw://b2805464c2d75cbdd726d6bd5c9b8d1f2c8566b606ec769ffa9a194a42248862",
+				"dweb:/ipfs/QmWBa9BsCH8gbncvDFXmfMJX1USTHvAREtc8C7nz6miQpw"
+			]
+		},
+		"MAAL Blockchain/RamzSwap/Core/libraries/SafeMath.sol": {
+			"keccak256": "0x9ea215227e02c4462247124b424db9dc7364f7d5ac0961debf46c16d5861ad21",
+			"urls": [
+				"bzz-raw://1c02a26140f0789d05f820916aaebb2981ce714b67022f0bb7c635c91454f490",
+				"dweb:/ipfs/QmR5BDEdyncBMss8vRgzK6jsGrBRkk4wqgNNHNmzi36k11"
+			]
+		},
+		"MAAL Blockchain/RamzSwap/Core/libraries/UQ112x112.sol": {
+			"keccak256": "0x2240694530251ab376ae468d0a2d3ee8b3109e56f2acadbc203cdf341506dd31",
+			"urls": [
+				"bzz-raw://56f55c411faa2924df0915ff77129b9d8c64d3e4d28554e7234f3774ac95958a",
+				"dweb:/ipfs/QmYrzUurXL8ijzS8EnLtQTVD7fKPReosg2DsEPXXCY7ec3"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,40 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MAAL Blockchain/RamzSwap/Core/FlattenedRouter.sol": "SafeMath"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MAAL Blockchain/RamzSwap/Core/FlattenedRouter.sol": {
+			"keccak256": "0xc788ffdd26fcc24f69a4b98559b6535af485626d293421620a842ee33c277980",
+			"urls": [
+				"bzz-raw://f6d3aed5495b2305da6557a31d0fb25a5a92908e8df128ed04a722d757a7e795",
+				"dweb:/ipfs/Qma1yjnywAAcM8JgNc4HPvL8MA1VsKdzX6hNukZppY58j5"
+			]
+		}
+	},
+	"version": 1
+}

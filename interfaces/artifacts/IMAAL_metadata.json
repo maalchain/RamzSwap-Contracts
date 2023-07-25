@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MAAL Blockchain/RamzSwap/Core/interfaces/IWMAAL.sol": "IMAAL"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MAAL Blockchain/RamzSwap/Core/interfaces/IWMAAL.sol": {
+			"keccak256": "0xaf9dbb474159576d310fb99fb247bd0a4000c62f916a56f3579db1ddded8b239",
+			"urls": [
+				"bzz-raw://acd28e53a9fcc3fce0fc7134cb27678069b490cbf0fcff09a2144b3a2c48c551",
+				"dweb:/ipfs/QmWwGjfTNQWMDaKSYUm9ipQ2MW7khgZv7A17wJQxLT68cM"
+			]
+		}
+	},
+	"version": 1
+}

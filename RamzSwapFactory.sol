@@ -7,6 +7,8 @@ contract RamzSwapFactory is IRamzSwapFactory {
     address public feeTo;
     address public feeToSetter;
 
+    bytes32 public constant INIT_CODE_PAIR_HASH = keccak256(abi.encodePacked(type(RamzSwapPair).creationCode));
+
     mapping(address => mapping(address => address)) public getPair;
     address[] public allPairs;
 

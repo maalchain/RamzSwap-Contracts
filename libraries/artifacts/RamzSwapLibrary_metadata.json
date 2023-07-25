@@ -1,0 +1,54 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MAAL Blockchain/RamzSwap/Core/libraries/RamzSwapLibrary.sol": "RamzSwapLibrary"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MAAL Blockchain/RamzSwap/Core/interfaces/IRamzSwapPair.sol": {
+			"keccak256": "0x173001660c443a9753f86546cab75d849e0c336f9537620ea6af47839aa24de0",
+			"urls": [
+				"bzz-raw://3e73c13c550a45504eefda56e2038d70c88a8dc29902c08ea785ae256628b773",
+				"dweb:/ipfs/QmTG2Znkn9Eqvum3fFNDLB7wfjAwqV1QSNpqJjYj928XWo"
+			]
+		},
+		"MAAL Blockchain/RamzSwap/Core/libraries/RamzSwapLibrary.sol": {
+			"keccak256": "0x0dbbfae65e3d8195920b5265a29651c9ec60cb8d0a01341e3cbc7bce7316c789",
+			"urls": [
+				"bzz-raw://c6c9ad89ee70f98c3809084ec56ce907bb1abff0407134ab186c7f610e256538",
+				"dweb:/ipfs/QmerLuivHMdXomT6dVwsuJCPz3U4szRZic6A2KCaSf9cDH"
+			]
+		},
+		"MAAL Blockchain/RamzSwap/Core/libraries/SafeMath.sol": {
+			"keccak256": "0x9ea215227e02c4462247124b424db9dc7364f7d5ac0961debf46c16d5861ad21",
+			"urls": [
+				"bzz-raw://1c02a26140f0789d05f820916aaebb2981ce714b67022f0bb7c635c91454f490",
+				"dweb:/ipfs/QmR5BDEdyncBMss8vRgzK6jsGrBRkk4wqgNNHNmzi36k11"
+			]
+		}
+	},
+	"version": 1
+}

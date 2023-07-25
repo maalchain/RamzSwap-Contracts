@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.5.16+commit.9c3226ce"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "ramzSwapCall",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MAAL Blockchain/RamzSwap/Core/FlattenedFactory.sol": "IRamzSwapCallee"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MAAL Blockchain/RamzSwap/Core/FlattenedFactory.sol": {
+			"keccak256": "0xc741c5dcb30232b413ccccc4820ee87940ea790e076ef582f2692d44afb39481",
+			"urls": [
+				"bzz-raw://d59a8123dd7aa20427eb2301a69e07587ad9aca72b3f3ffc7c85b717cc177fb7",
+				"dweb:/ipfs/QmZRdfj3xT6t8kZoub9d13zhVkTZU4HELaFvzLLT8RZXNo"
+			]
+		}
+	},
+	"version": 1
+}

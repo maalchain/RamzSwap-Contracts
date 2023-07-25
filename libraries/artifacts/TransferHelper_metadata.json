@@ -1,0 +1,40 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MAAL Blockchain/RamzSwap/Core/libraries/TransferHelper.sol": "TransferHelper"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MAAL Blockchain/RamzSwap/Core/libraries/TransferHelper.sol": {
+			"keccak256": "0x746316ce1d7f0de640f02a6b4540be699928b5be3a3fd3fbfe25e691b6ea3362",
+			"urls": [
+				"bzz-raw://8417a35c2b50f165aaa09f707cf201dc02850cbd67e31dcdb51bb482a4e27b0b",
+				"dweb:/ipfs/Qmek8is4e6Enbmr97oQ7nMkYh8BbtL97Kc287FV2QNnUqg"
+			]
+		}
+	},
+	"version": 1
+}

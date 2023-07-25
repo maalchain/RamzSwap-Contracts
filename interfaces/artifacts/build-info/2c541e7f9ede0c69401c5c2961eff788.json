@@ -1,0 +1,290 @@
+{
+	"id": "2c541e7f9ede0c69401c5c2961eff788",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.5.16",
+	"solcLongVersion": "0.5.16+commit.9c3226ce",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"MAAL Blockchain/RamzSwap/Core/interfaces/IRamzSwapCallee.sol": {
+				"content": "pragma solidity >=0.5.0;\n\ninterface IRamzSwapCallee {\n    function ramzSwapCall(address sender, uint amount0, uint amount1, bytes calldata data) external;\n}\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": true,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {
+			"MAAL Blockchain/RamzSwap/Core/interfaces/IRamzSwapCallee.sol": {
+				"IRamzSwapCallee": {
+					"abi": [
+						{
+							"constant": false,
+							"inputs": [
+								{
+									"internalType": "address",
+									"name": "sender",
+									"type": "address"
+								},
+								{
+									"internalType": "uint256",
+									"name": "amount0",
+									"type": "uint256"
+								},
+								{
+									"internalType": "uint256",
+									"name": "amount1",
+									"type": "uint256"
+								},
+								{
+									"internalType": "bytes",
+									"name": "data",
+									"type": "bytes"
+								}
+							],
+							"name": "ramzSwapCall",
+							"outputs": [],
+							"payable": false,
+							"stateMutability": "nonpayable",
+							"type": "function"
+						}
+					],
+					"devdoc": {
+						"methods": {}
+					},
+					"evm": {
+						"assembly": "",
+						"bytecode": {
+							"linkReferences": {},
+							"object": "",
+							"opcodes": "",
+							"sourceMap": ""
+						},
+						"deployedBytecode": {
+							"linkReferences": {},
+							"object": "",
+							"opcodes": "",
+							"sourceMap": ""
+						},
+						"gasEstimates": null,
+						"legacyAssembly": null,
+						"methodIdentifiers": {
+							"ramzSwapCall(address,uint256,uint256,bytes)": "b66bf2ea"
+						}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount0\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amount1\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"ramzSwapCall\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"MAAL Blockchain/RamzSwap/Core/interfaces/IRamzSwapCallee.sol\":\"IRamzSwapCallee\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"MAAL Blockchain/RamzSwap/Core/interfaces/IRamzSwapCallee.sol\":{\"keccak256\":\"0xb6e722f0137725402670b903e4a946c053872f9448115a5cbe5ccba9f280439f\",\"urls\":[\"bzz-raw://33f929f5c39f9d804e319e4cbf9a7d560331f29bea3e9c456a1d8ea43d6b365f\",\"dweb:/ipfs/QmW6YPgREw9rUufoE57vDwBcNWEoR1tNJDJFzBkaRaG2Sx\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [],
+						"types": null
+					},
+					"userdoc": {
+						"methods": {}
+					}
+				}
+			}
+		},
+		"sources": {
+			"MAAL Blockchain/RamzSwap/Core/interfaces/IRamzSwapCallee.sol": {
+				"ast": {
+					"absolutePath": "MAAL Blockchain/RamzSwap/Core/interfaces/IRamzSwapCallee.sol",
+					"exportedSymbols": {
+						"IRamzSwapCallee": [
+							13
+						]
+					},
+					"id": 14,
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">=",
+								"0.5",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "0:24:0"
+						},
+						{
+							"baseContracts": [],
+							"contractDependencies": [],
+							"contractKind": "interface",
+							"documentation": null,
+							"fullyImplemented": false,
+							"id": 13,
+							"linearizedBaseContracts": [
+								13
+							],
+							"name": "IRamzSwapCallee",
+							"nodeType": "ContractDefinition",
+							"nodes": [
+								{
+									"body": null,
+									"documentation": null,
+									"id": 12,
+									"implemented": false,
+									"kind": "function",
+									"modifiers": [],
+									"name": "ramzSwapCall",
+									"nodeType": "FunctionDefinition",
+									"parameters": {
+										"id": 10,
+										"nodeType": "ParameterList",
+										"parameters": [
+											{
+												"constant": false,
+												"id": 3,
+												"name": "sender",
+												"nodeType": "VariableDeclaration",
+												"scope": 12,
+												"src": "80:14:0",
+												"stateVariable": false,
+												"storageLocation": "default",
+												"typeDescriptions": {
+													"typeIdentifier": "t_address",
+													"typeString": "address"
+												},
+												"typeName": {
+													"id": 2,
+													"name": "address",
+													"nodeType": "ElementaryTypeName",
+													"src": "80:7:0",
+													"stateMutability": "nonpayable",
+													"typeDescriptions": {
+														"typeIdentifier": "t_address",
+														"typeString": "address"
+													}
+												},
+												"value": null,
+												"visibility": "internal"
+											},
+											{
+												"constant": false,
+												"id": 5,
+												"name": "amount0",
+												"nodeType": "VariableDeclaration",
+												"scope": 12,
+												"src": "96:12:0",
+												"stateVariable": false,
+												"storageLocation": "default",
+												"typeDescriptions": {
+													"typeIdentifier": "t_uint256",
+													"typeString": "uint256"
+												},
+												"typeName": {
+													"id": 4,
+													"name": "uint",
+													"nodeType": "ElementaryTypeName",
+													"src": "96:4:0",
+													"typeDescriptions": {
+														"typeIdentifier": "t_uint256",
+														"typeString": "uint256"
+													}
+												},
+												"value": null,
+												"visibility": "internal"
+											},
+											{
+												"constant": false,
+												"id": 7,
+												"name": "amount1",
+												"nodeType": "VariableDeclaration",
+												"scope": 12,
+												"src": "110:12:0",
+												"stateVariable": false,
+												"storageLocation": "default",
+												"typeDescriptions": {
+													"typeIdentifier": "t_uint256",
+													"typeString": "uint256"
+												},
+												"typeName": {
+													"id": 6,
+													"name": "uint",
+													"nodeType": "ElementaryTypeName",
+													"src": "110:4:0",
+													"typeDescriptions": {
+														"typeIdentifier": "t_uint256",
+														"typeString": "uint256"
+													}
+												},
+												"value": null,
+												"visibility": "internal"
+											},
+											{
+												"constant": false,
+												"id": 9,
+												"name": "data",
+												"nodeType": "VariableDeclaration",
+												"scope": 12,
+												"src": "124:19:0",
+												"stateVariable": false,
+												"storageLocation": "calldata",
+												"typeDescriptions": {
+													"typeIdentifier": "t_bytes_calldata_ptr",
+													"typeString": "bytes"
+												},
+												"typeName": {
+													"id": 8,
+													"name": "bytes",
+													"nodeType": "ElementaryTypeName",
+													"src": "124:5:0",
+													"typeDescriptions": {
+														"typeIdentifier": "t_bytes_storage_ptr",
+														"typeString": "bytes"
+													}
+												},
+												"value": null,
+												"visibility": "internal"
+											}
+										],
+										"src": "79:65:0"
+									},
+									"returnParameters": {
+										"id": 11,
+										"nodeType": "ParameterList",
+										"parameters": [],
+										"src": "153:0:0"
+									},
+									"scope": 13,
+									"src": "58:96:0",
+									"stateMutability": "nonpayable",
+									"superFunction": null,
+									"visibility": "external"
+								}
+							],
+							"scope": 14,
+							"src": "26:130:0"
+						}
+					],
+					"src": "0:157:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
